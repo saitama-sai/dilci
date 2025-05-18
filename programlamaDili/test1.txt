@@ -1,2 +1,0 @@
--- bu bir acıklama satırıdır
-x <- x + 3

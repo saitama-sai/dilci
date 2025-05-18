@@ -97,7 +97,7 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 14 "src/parser.y"
+#line 14 "parser.y"
 
     int int_value;
     double double_value;
