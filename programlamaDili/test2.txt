@@ -1,0 +1,24 @@
+-- Kontrol yapıları örneği
+-- Basit bir if-else ve döngü kullanımı
+
+-- Değişken tanımlamaları
+sayi ← 5
+toplam ← 0
+sayac ← 0
+
+-- If-else yapısı
+eger (sayi > 10) {
+    ekrana_yaz("Sayı 10'dan büyük")
+} degilse {
+    ekrana_yaz("Sayı 10'dan küçük veya eşit")
+} son
+
+-- Döngü yapısı
+iken (sayac < 5) {
+    toplam +← sayac
+    sayac +← 1
+} son
+
+-- Sonucu yazdır
+ekrana_yaz("Toplam:")
+deger_goster(toplam)
